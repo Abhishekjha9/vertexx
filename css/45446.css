@@ -2635,3 +2635,13 @@ html:not( wf-design-mode) .transitions__card-title{
   transform: translate(0px, 0em);
   transition-delay: 0.25s;
 }
+/* Override nav bar height to fix empty space */
+.nav-bar__bottom-inner {
+  min-height: 0 !important;
+  height: auto !important;
+}
+
+.nav-bar__bottom-row {
+  min-height: 0 !important;
+  height: auto !important;
+}
